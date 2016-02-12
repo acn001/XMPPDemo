@@ -150,6 +150,22 @@
 		EC429CCA1C6DD56900CE6EF8 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = EC429C3D1C6DD56900CE6EF8 /* build-libidn.sh */; };
 		EC429CCB1C6DD56900CE6EF8 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC429C3F1C6DD56900CE6EF8 /* libidn.a */; };
 		EC429CCD1C6DD7A800CE6EF8 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EC429CCC1C6DD7A800CE6EF8 /* libresolv.tbd */; };
+		EC429D6D1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D6C1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.m */; };
+		EC429D8F1C6E341600CE6EF8 /* NSDate+XMPPDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D701C6E341600CE6EF8 /* NSDate+XMPPDemo.m */; };
+		EC429D901C6E341600CE6EF8 /* NSString+XMPPDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D721C6E341600CE6EF8 /* NSString+XMPPDemo.m */; };
+		EC429D911C6E341600CE6EF8 /* UIColor+XMPPDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D741C6E341600CE6EF8 /* UIColor+XMPPDemo.m */; };
+		EC429D921C6E341600CE6EF8 /* UILabel+XMPPDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D761C6E341600CE6EF8 /* UILabel+XMPPDemo.m */; };
+		EC429D931C6E341600CE6EF8 /* XMPPDemoFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D791C6E341600CE6EF8 /* XMPPDemoFont.m */; };
+		EC429D941C6E341600CE6EF8 /* XMPPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D7B1C6E341600CE6EF8 /* XMPPHelper.m */; };
+		EC429D951C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D7E1C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.m */; };
+		EC429D961C6E341600CE6EF8 /* XMPPDemoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D801C6E341600CE6EF8 /* XMPPDemoChatViewController.m */; };
+		EC429D971C6E341600CE6EF8 /* XMPPDemoFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D821C6E341600CE6EF8 /* XMPPDemoFriendsViewController.m */; };
+		EC429D981C6E341600CE6EF8 /* XMPPDemoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D841C6E341600CE6EF8 /* XMPPDemoLoginViewController.m */; };
+		EC429D991C6E341600CE6EF8 /* XMPPDemoRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D861C6E341600CE6EF8 /* XMPPDemoRegisterViewController.m */; };
+		EC429D9A1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D891C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.m */; };
+		EC429D9B1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC429D8A1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.xib */; };
+		EC429D9C1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D8C1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.m */; };
+		EC429D9D1C6E341600CE6EF8 /* XMPPDemoToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EC429D8E1C6E341600CE6EF8 /* XMPPDemoToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -446,6 +462,37 @@
 		EC429C401C6DD56900CE6EF8 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		EC429C421C6DD56900CE6EF8 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
 		EC429CCC1C6DD7A800CE6EF8 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		EC429D6B1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoBaseViewController.h; sourceTree = "<group>"; };
+		EC429D6C1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoBaseViewController.m; sourceTree = "<group>"; };
+		EC429D6F1C6E341600CE6EF8 /* NSDate+XMPPDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XMPPDemo.h"; sourceTree = "<group>"; };
+		EC429D701C6E341600CE6EF8 /* NSDate+XMPPDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XMPPDemo.m"; sourceTree = "<group>"; };
+		EC429D711C6E341600CE6EF8 /* NSString+XMPPDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMPPDemo.h"; sourceTree = "<group>"; };
+		EC429D721C6E341600CE6EF8 /* NSString+XMPPDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMPPDemo.m"; sourceTree = "<group>"; };
+		EC429D731C6E341600CE6EF8 /* UIColor+XMPPDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XMPPDemo.h"; sourceTree = "<group>"; };
+		EC429D741C6E341600CE6EF8 /* UIColor+XMPPDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XMPPDemo.m"; sourceTree = "<group>"; };
+		EC429D751C6E341600CE6EF8 /* UILabel+XMPPDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+XMPPDemo.h"; sourceTree = "<group>"; };
+		EC429D761C6E341600CE6EF8 /* UILabel+XMPPDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+XMPPDemo.m"; sourceTree = "<group>"; };
+		EC429D781C6E341600CE6EF8 /* XMPPDemoFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoFont.h; sourceTree = "<group>"; };
+		EC429D791C6E341600CE6EF8 /* XMPPDemoFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoFont.m; sourceTree = "<group>"; };
+		EC429D7A1C6E341600CE6EF8 /* XMPPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPHelper.h; sourceTree = "<group>"; };
+		EC429D7B1C6E341600CE6EF8 /* XMPPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPHelper.m; sourceTree = "<group>"; };
+		EC429D7D1C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoAddNewFriendViewController.h; sourceTree = "<group>"; };
+		EC429D7E1C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoAddNewFriendViewController.m; sourceTree = "<group>"; };
+		EC429D7F1C6E341600CE6EF8 /* XMPPDemoChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoChatViewController.h; sourceTree = "<group>"; };
+		EC429D801C6E341600CE6EF8 /* XMPPDemoChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoChatViewController.m; sourceTree = "<group>"; };
+		EC429D811C6E341600CE6EF8 /* XMPPDemoFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoFriendsViewController.h; sourceTree = "<group>"; };
+		EC429D821C6E341600CE6EF8 /* XMPPDemoFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoFriendsViewController.m; sourceTree = "<group>"; };
+		EC429D831C6E341600CE6EF8 /* XMPPDemoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoLoginViewController.h; sourceTree = "<group>"; };
+		EC429D841C6E341600CE6EF8 /* XMPPDemoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoLoginViewController.m; sourceTree = "<group>"; };
+		EC429D851C6E341600CE6EF8 /* XMPPDemoRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoRegisterViewController.h; sourceTree = "<group>"; };
+		EC429D861C6E341600CE6EF8 /* XMPPDemoRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoRegisterViewController.m; sourceTree = "<group>"; };
+		EC429D881C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoFriendSubscriptionCell.h; sourceTree = "<group>"; };
+		EC429D891C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoFriendSubscriptionCell.m; sourceTree = "<group>"; };
+		EC429D8A1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMPPDemoFriendSubscriptionCell.xib; sourceTree = "<group>"; };
+		EC429D8B1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoLoadingIndicatorView.h; sourceTree = "<group>"; };
+		EC429D8C1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoLoadingIndicatorView.m; sourceTree = "<group>"; };
+		EC429D8D1C6E341600CE6EF8 /* XMPPDemoToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDemoToast.h; sourceTree = "<group>"; };
+		EC429D8E1C6E341600CE6EF8 /* XMPPDemoToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPDemoToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +514,10 @@
 			children = (
 				EC429CCE1C6DD7BA00CE6EF8 /* Libs */,
 				EC42984E1C6DC6E900CE6EF8 /* Third-party */,
+				EC429D6E1C6E341600CE6EF8 /* Categories */,
+				EC429D771C6E341600CE6EF8 /* Services */,
+				EC429D7C1C6E341600CE6EF8 /* ViewControllers */,
+				EC429D871C6E341600CE6EF8 /* Views */,
 				EC4298361C6DBA4D00CE6EF8 /* XMPPDemo */,
 				EC4298351C6DBA4D00CE6EF8 /* Products */,
 			);
@@ -485,6 +536,8 @@
 			children = (
 				EC42983A1C6DBA4D00CE6EF8 /* AppDelegate.h */,
 				EC42983B1C6DBA4D00CE6EF8 /* AppDelegate.m */,
+				EC429D6B1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.h */,
+				EC429D6C1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.m */,
 				EC4298431C6DBA4D00CE6EF8 /* Assets.xcassets */,
 				EC4298451C6DBA4D00CE6EF8 /* LaunchScreen.storyboard */,
 				EC4298481C6DBA4D00CE6EF8 /* Info.plist */,
@@ -2161,6 +2214,63 @@
 			name = Libs;
 			sourceTree = "<group>";
 		};
+		EC429D6E1C6E341600CE6EF8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EC429D6F1C6E341600CE6EF8 /* NSDate+XMPPDemo.h */,
+				EC429D701C6E341600CE6EF8 /* NSDate+XMPPDemo.m */,
+				EC429D711C6E341600CE6EF8 /* NSString+XMPPDemo.h */,
+				EC429D721C6E341600CE6EF8 /* NSString+XMPPDemo.m */,
+				EC429D731C6E341600CE6EF8 /* UIColor+XMPPDemo.h */,
+				EC429D741C6E341600CE6EF8 /* UIColor+XMPPDemo.m */,
+				EC429D751C6E341600CE6EF8 /* UILabel+XMPPDemo.h */,
+				EC429D761C6E341600CE6EF8 /* UILabel+XMPPDemo.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EC429D771C6E341600CE6EF8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC429D781C6E341600CE6EF8 /* XMPPDemoFont.h */,
+				EC429D791C6E341600CE6EF8 /* XMPPDemoFont.m */,
+				EC429D7A1C6E341600CE6EF8 /* XMPPHelper.h */,
+				EC429D7B1C6E341600CE6EF8 /* XMPPHelper.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC429D7C1C6E341600CE6EF8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC429D7D1C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.h */,
+				EC429D7E1C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.m */,
+				EC429D7F1C6E341600CE6EF8 /* XMPPDemoChatViewController.h */,
+				EC429D801C6E341600CE6EF8 /* XMPPDemoChatViewController.m */,
+				EC429D811C6E341600CE6EF8 /* XMPPDemoFriendsViewController.h */,
+				EC429D821C6E341600CE6EF8 /* XMPPDemoFriendsViewController.m */,
+				EC429D831C6E341600CE6EF8 /* XMPPDemoLoginViewController.h */,
+				EC429D841C6E341600CE6EF8 /* XMPPDemoLoginViewController.m */,
+				EC429D851C6E341600CE6EF8 /* XMPPDemoRegisterViewController.h */,
+				EC429D861C6E341600CE6EF8 /* XMPPDemoRegisterViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC429D871C6E341600CE6EF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC429D881C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.h */,
+				EC429D891C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.m */,
+				EC429D8A1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.xib */,
+				EC429D8B1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.h */,
+				EC429D8C1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.m */,
+				EC429D8D1C6E341600CE6EF8 /* XMPPDemoToast.h */,
+				EC429D8E1C6E341600CE6EF8 /* XMPPDemoToast.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2220,6 +2330,7 @@
 			files = (
 				EC429CCA1C6DD56900CE6EF8 /* build-libidn.sh in Resources */,
 				EC429C4E1C6DD56900CE6EF8 /* copying.txt in Resources */,
+				EC429D9B1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.xib in Resources */,
 				EC4298471C6DBA4D00CE6EF8 /* LaunchScreen.storyboard in Resources */,
 				EC429CC51C6DD56900CE6EF8 /* README.txt in Resources */,
 				EC4298441C6DBA4D00CE6EF8 /* Assets.xcassets in Resources */,
@@ -2248,6 +2359,7 @@
 				EC429C4B1C6DD56900CE6EF8 /* NSData+XMPP.m in Sources */,
 				EC429C5C1C6DD56900CE6EF8 /* XMPPGroupCoreDataStorageObject.m in Sources */,
 				EC429C9C1C6DD56900CE6EF8 /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
+				EC429D8F1C6E341600CE6EF8 /* NSDate+XMPPDemo.m in Sources */,
 				EC429C731C6DD56900CE6EF8 /* XMPPRoomOccupantHybridMemoryStorageObject.m in Sources */,
 				EC429CB81C6DD56900CE6EF8 /* XMPPIDTracker.m in Sources */,
 				EC429CC11C6DD56900CE6EF8 /* DDTTYLogger.m in Sources */,
@@ -2258,6 +2370,7 @@
 				EC429C481C6DD56900CE6EF8 /* XMPPSCRAMSHA1Authentication.m in Sources */,
 				EC429C9E1C6DD56900CE6EF8 /* XMPPvCardAvatarModule.m in Sources */,
 				EC429C7C1C6DD56900CE6EF8 /* XMPPvCardCoreDataStorage.m in Sources */,
+				EC429D951C6E341600CE6EF8 /* XMPPDemoAddNewFriendViewController.m in Sources */,
 				EC429C761C6DD56900CE6EF8 /* XMPPRoomOccupantMemoryStorageObject.m in Sources */,
 				EC429CA41C6DD56900CE6EF8 /* XMPPStreamManagementMemoryStorage.m in Sources */,
 				EC429CC31C6DD56900CE6EF8 /* DDDispatchQueueLogFormatter.m in Sources */,
@@ -2275,9 +2388,11 @@
 				EC429C701C6DD56900CE6EF8 /* XMPPRoomHybrid.xcdatamodeld in Sources */,
 				EC429CC81C6DD56900CE6EF8 /* DDXMLElement.m in Sources */,
 				EC429C641C6DD56900CE6EF8 /* XMPPRoster.m in Sources */,
+				EC429D931C6E341600CE6EF8 /* XMPPDemoFont.m in Sources */,
 				EC429C8E1C6DD56900CE6EF8 /* NSDate+XMPPDateTimeProfiles.m in Sources */,
 				EC429C521C6DD56900CE6EF8 /* XMPPMessage.m in Sources */,
 				EC429C4F1C6DD56900CE6EF8 /* XMPPElement.m in Sources */,
+				EC429D961C6E341600CE6EF8 /* XMPPDemoChatViewController.m in Sources */,
 				EC429C821C6DD56900CE6EF8 /* XMPPvCardTempBase.m in Sources */,
 				EC429C8C1C6DD56900CE6EF8 /* XMPPIQ+XEP_0066.m in Sources */,
 				EC429C771C6DD56900CE6EF8 /* XMPPMessage+XEP0045.m in Sources */,
@@ -2296,11 +2411,14 @@
 				EC429CA61C6DD56900CE6EF8 /* XMPPStreamManagement.m in Sources */,
 				EC429CAA1C6DD56900CE6EF8 /* XMPPTime.m in Sources */,
 				EC429C861C6DD56900CE6EF8 /* XMPPvCardTempTel.m in Sources */,
+				EC429D9C1C6E341600CE6EF8 /* XMPPDemoLoadingIndicatorView.m in Sources */,
 				EC429C911C6DD56900CE6EF8 /* XMPPSoftwareVersion.m in Sources */,
 				EC429CC61C6DD56900CE6EF8 /* NSString+DDXML.m in Sources */,
 				EC429C471C6DD56900CE6EF8 /* XMPPPlainAuthentication.m in Sources */,
 				EC429C5E1C6DD56900CE6EF8 /* XMPPRoster.xcdatamodel in Sources */,
 				EC429CBB1C6DD56900CE6EF8 /* XMPPTimer.m in Sources */,
+				EC429D991C6E341600CE6EF8 /* XMPPDemoRegisterViewController.m in Sources */,
+				EC429D901C6E341600CE6EF8 /* NSString+XMPPDemo.m in Sources */,
 				EC429CC71C6DD56900CE6EF8 /* DDXMLDocument.m in Sources */,
 				EC429C961C6DD56900CE6EF8 /* XMPPCapsCoreDataStorageObject.m in Sources */,
 				EC429C541C6DD56900CE6EF8 /* XMPPParser.m in Sources */,
@@ -2313,9 +2431,11 @@
 				EC429CB91C6DD56900CE6EF8 /* XMPPSRVResolver.m in Sources */,
 				EC429C6C1C6DD56900CE6EF8 /* XMPPRoom.xcdatamodeld in Sources */,
 				EC429C651C6DD56900CE6EF8 /* XMPPSystemInputActivityMonitor.m in Sources */,
+				EC429D971C6E341600CE6EF8 /* XMPPDemoFriendsViewController.m in Sources */,
 				EC429C9B1C6DD56900CE6EF8 /* XMPPMessageArchiving_Message_CoreDataObject.m in Sources */,
 				EC429CC91C6DD56900CE6EF8 /* DDXMLNode.m in Sources */,
 				EC429CAB1C6DD56900CE6EF8 /* NSXMLElement+XEP_0203.m in Sources */,
+				EC429D6D1C6E33F600CE6EF8 /* XMPPDemoBaseViewController.m in Sources */,
 				EC429C6F1C6DD56900CE6EF8 /* XMPPRoomOccupantCoreDataStorageObject.m in Sources */,
 				EC429CB11C6DD56900CE6EF8 /* NSXMLElement+XEP_0297.m in Sources */,
 				EC429CA81C6DD56900CE6EF8 /* XMPPPing.m in Sources */,
@@ -2326,8 +2446,10 @@
 				EC429C781C6DD56900CE6EF8 /* XMPPMUC.m in Sources */,
 				EC429C581C6DD56900CE6EF8 /* XMPPCoreDataStorage.m in Sources */,
 				EC429C4A1C6DD56900CE6EF8 /* XMPPXOAuth2Google.m in Sources */,
+				EC429D921C6E341600CE6EF8 /* UILabel+XMPPDemo.m in Sources */,
 				EC429C4D1C6DD56900CE6EF8 /* NSXMLElement+XMPP.m in Sources */,
 				EC429CBC1C6DD56900CE6EF8 /* GCDAsyncSocket.m in Sources */,
+				EC429D9D1C6E341600CE6EF8 /* XMPPDemoToast.m in Sources */,
 				EC429CB71C6DD56900CE6EF8 /* RFImageToDataTransformer.m in Sources */,
 				EC429C851C6DD56900CE6EF8 /* XMPPvCardTempModule.m in Sources */,
 				EC429C5F1C6DD56900CE6EF8 /* XMPPRosterCoreDataStorage.m in Sources */,
@@ -2340,6 +2462,7 @@
 				EC429CA01C6DD56900CE6EF8 /* XMPPPresence+XEP_0172.m in Sources */,
 				EC429CB01C6DD56900CE6EF8 /* XMPPMessageCarbons.m in Sources */,
 				EC429C681C6DD56900CE6EF8 /* XMPPJabberRPCModule.m in Sources */,
+				EC429D911C6E341600CE6EF8 /* UIColor+XMPPDemo.m in Sources */,
 				EC429CBA1C6DD56900CE6EF8 /* XMPPStringPrep.m in Sources */,
 				EC429C8F1C6DD56900CE6EF8 /* XMPPDateTimeProfiles.m in Sources */,
 				EC429C8D1C6DD56900CE6EF8 /* XMPPMessage+XEP_0066.m in Sources */,
@@ -2355,10 +2478,13 @@
 				EC429C601C6DD56900CE6EF8 /* XMPPUserCoreDataStorageObject.m in Sources */,
 				EC429C711C6DD56900CE6EF8 /* XMPPRoomHybridStorage.m in Sources */,
 				EC429CBF1C6DD56900CE6EF8 /* DDFileLogger.m in Sources */,
+				EC429D941C6E341600CE6EF8 /* XMPPHelper.m in Sources */,
 				EC429C6E1C6DD56900CE6EF8 /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				EC429CC41C6DD56900CE6EF8 /* DDMultiFormatter.m in Sources */,
 				EC429C901C6DD56900CE6EF8 /* XMPPMessage+XEP_0085.m in Sources */,
+				EC429D9A1C6E341600CE6EF8 /* XMPPDemoFriendSubscriptionCell.m in Sources */,
 				EC429C7D1C6DD56900CE6EF8 /* XMPPvCardCoreDataStorageObject.m in Sources */,
+				EC429D981C6E341600CE6EF8 /* XMPPDemoLoginViewController.m in Sources */,
 				EC4298391C6DBA4D00CE6EF8 /* main.m in Sources */,
 				EC429C5D1C6DD56900CE6EF8 /* XMPPResourceCoreDataStorageObject.m in Sources */,
 				EC429C721C6DD56900CE6EF8 /* XMPPRoomMessageHybridCoreDataStorageObject.m in Sources */,

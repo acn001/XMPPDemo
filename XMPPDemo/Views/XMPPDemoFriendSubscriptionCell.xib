@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="FBK-lS-Uj4" userLabel="XMPPDemoFriendSubscriptionCell" customClass="XMPPDemoFriendSubscriptionCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FBK-lS-Uj4" id="QVz-K8-FAv">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbQ-i5-UZ1" userLabel="titleLabel">
+                        <rect key="frame" x="8" y="11.5" width="178" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfR-pg-mwF" userLabel="acceptButton">
+                        <rect key="frame" x="194" y="7" width="55" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="OC1-AQ-Xtg"/>
+                            <constraint firstAttribute="height" constant="30" id="Sy3-S6-Suz"/>
+                        </constraints>
+                        <state key="normal" title="Accept"/>
+                        <connections>
+                            <action selector="acceptButtonAction:" destination="FBK-lS-Uj4" eventType="touchUpInside" id="bSl-IT-3cK"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFs-TZ-5e8" userLabel="rejectButton">
+                        <rect key="frame" x="257" y="7" width="55" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="fcs-if-Mt9"/>
+                            <constraint firstAttribute="height" constant="30" id="x2O-oq-1Xs"/>
+                        </constraints>
+                        <state key="normal" title="Reject"/>
+                        <connections>
+                            <action selector="rejectButtonAction:" destination="FBK-lS-Uj4" eventType="touchUpInside" id="UXY-T0-N41"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xbQ-i5-UZ1" firstAttribute="centerY" secondItem="QVz-K8-FAv" secondAttribute="centerY" id="Cu0-8q-Zd2"/>
+                    <constraint firstItem="FfR-pg-mwF" firstAttribute="centerY" secondItem="QVz-K8-FAv" secondAttribute="centerY" id="H9A-Cy-Ie8"/>
+                    <constraint firstItem="xFs-TZ-5e8" firstAttribute="centerY" secondItem="QVz-K8-FAv" secondAttribute="centerY" id="Rxh-wK-iLc"/>
+                    <constraint firstItem="xFs-TZ-5e8" firstAttribute="leading" secondItem="FfR-pg-mwF" secondAttribute="trailing" constant="8" id="cNg-98-CZ1"/>
+                    <constraint firstItem="xbQ-i5-UZ1" firstAttribute="leading" secondItem="QVz-K8-FAv" secondAttribute="leading" constant="8" id="gew-Fs-yrb"/>
+                    <constraint firstItem="FfR-pg-mwF" firstAttribute="leading" secondItem="xbQ-i5-UZ1" secondAttribute="trailing" constant="8" id="sJ4-8v-7zv"/>
+                    <constraint firstAttribute="trailing" secondItem="xFs-TZ-5e8" secondAttribute="trailing" constant="8" id="zT1-2G-5KA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="acceptButton" destination="FfR-pg-mwF" id="tVu-og-xR8"/>
+                <outlet property="rejectButton" destination="xFs-TZ-5e8" id="ZzL-yH-Xgq"/>
+                <outlet property="titleLabel" destination="xbQ-i5-UZ1" id="5GS-av-ysK"/>
+            </connections>
+            <point key="canvasLocation" x="445" y="242"/>
+        </tableViewCell>
+    </objects>
+</document>
