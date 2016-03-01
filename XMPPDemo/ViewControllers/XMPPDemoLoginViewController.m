@@ -13,6 +13,7 @@
 #import "XMPPDemoToast.h"
 #import "XMPPDemoRegisterViewController.h"
 #import "XMPPDemoFriendsViewController.h"
+#import "XMShareSDK.h"
 
 static CGFloat const kHeightOfTextField = 40.0;
 static NSString * const kUsernameKey = @"USERNAME_KEY";
@@ -66,6 +67,21 @@ static NSString * const kUsernameKey = @"USERNAME_KEY";
     if (username.length > 0) {
         self.usernameField.text = username;
     }
+    
+    UIButton *testButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    testButton.frame = CGRectMake(0, 150, self.view.frame.size.width, 30);
+    testButton.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    [testButton setTitle:@"test Weixin SSO Login" forState:UIControlStateNormal];
+    [testButton setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [testButton addTarget:self action:@selector(testWeixinSSOLogin:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:testButton];
+}
+
+
+- (void)testWeixinSSOLogin:(id)sender {
+    [[XMShareManager sharedManager] weixinSSOWithResponse:^(XMSSOResponseObject *respObject) {
+        NSLog(@"execute responseObject, %@", respObject);
+    }];
 }
 
 - (void)registerAction {

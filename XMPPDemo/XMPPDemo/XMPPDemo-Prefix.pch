@@ -1,0 +1,33 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// IOS
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+// For Others
+#import "NSString+XMDraw.h"
+#import "BTMToast.h"
+
+
+#endif
+
+
+// close NSLog for optimize
+#ifdef __OPTIMIZE__
+    #define NSLog(...) {}
+#else
+    #define NSLog(...) NSLog(__VA_ARGS__)
+#endif
