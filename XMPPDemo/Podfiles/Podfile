@@ -1,0 +1,27 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace '../XMPPDemo'
+xcodeproj '../XMPPDemo.xcodeproj'
+
+platform:ios, '7.0'
+inhibit_all_warnings!
+
+pod 'AFNetworking', '~> 2.6.3'
+pod 'SDWebImage'
+#pod 'SDWebImage/WebP'
+pod 'libwebp', :git => 'https://github.com/Anselz/libwebpd.git'
+
+pod 'MBProgressHUD', '~> 0.9.1'
+
+#pod 'ProtocolBuffers'
+
+#post_install do |installer|
+#    installer.pods_project.targets.each do |target|
+#        if target.name != "Pods-AsyncDisplayKit" then
+#            target.build_configurations.each do |configuration|
+#                target.build_settings(configuration.name)['IPHONEOS_DEPLOYMENT_TARGET'] = '6.0'
+#            end
+#        end
+#    end
+#end
+
