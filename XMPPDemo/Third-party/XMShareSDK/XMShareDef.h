@@ -163,6 +163,7 @@ typedef NS_ENUM(NSUInteger, XMSharePanelStyle) {
 #define XM_SHARE_PLOG(errCode, errMsg) NSLog(@"errCode = %ld, errMessage = %@", (long)errCode, errMsg)
 #define XM_SHARE_VLOG(errCode, errMsg, otherMsg) NSLog(@"errCode = %ld, errMessage = %@, otherMessage = %@", (long)errCode, errMsg, otherMsg)
 
+
 #define XM_IsNetworkReachability (([[AFNetworkReachabilityManager sharedManager] networkReachabilityStatus] == AFNetworkReachabilityStatusReachableViaWWAN) || ([[AFNetworkReachabilityManager sharedManager] networkReachabilityStatus] == AFNetworkReachabilityStatusReachableViaWiFi))
 
 

@@ -7,6 +7,7 @@
 "XMShareDefaultContent"     = "来自@XMPP";
 "XMShareDefaultURL"         = "http://m.baidu.com/";
 
+
 "weixin_session"   = "微信好友";
 "weixin_timeline"  = "朋友圈";
 "qq_friend"        = "QQ好友";

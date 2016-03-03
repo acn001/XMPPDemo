@@ -1341,7 +1341,7 @@ static NSString * const wbRedirectURI = @"http://www.m.nuomi.com";
         [[BTMToast sharedInstance] showToast:@"您未安装微信客户端，\n请安装后再试"];
         return;
     }
-    
+
     _code = nil;
     _accessToken = nil;
     _openId = nil;
